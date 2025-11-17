@@ -14,7 +14,7 @@ int main()
 {
     int stack[7] = {0, 1, 2, 3, 4, 5, 6};
 
-    printf("\n========== STACK SIMULATION FOR 15 DAYS ==========\n");
+    printf("\n*** STACK SIMULATION FOR 15 DAYS ***\n");
 
     for (int day = 1; day <= 15; day++)
     {
@@ -44,7 +44,8 @@ int main()
         }
     }
 
-    printf("\n========== END OF 15-DAY SIMULATION ==========\n");
+    printf("\n*** END OF 15-DAY SIMULATION ***\n");
     return 0;
 }
+
 
